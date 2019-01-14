@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        This is the title of the webpage
+        It is the name that goes in the tab
+    -->
+    <title>Webdevelopment</title>
+</head>
+
+    <!--This is the body of the webpage-->
+    <body>
+        <a href="blog.html">Go to semantics page</a>
+        <hr>
+        <h1 align="center"> Welcome </h1>
+        <h2 align="center">This is the process I used to learn basic html</h2>
+        <hr/>
+        <p>
+            This is just a little mock up webpage that I created to learn HTLM. It does not have very much <em>CSS</em>. 
+        </p>
+        <p>
+            Of course to start developing webpages I needed a text editor. 
+            After talking with a number of classmates I had chosen to go
+                <!--The strong bolds the text in the tag.-->
+            with <strong>Visual Studio Code</strong>. To help with the
+                <!--The emphasize tag changes to itallic--> 
+            installation and setup of <em>VS Code</em> I watch this
+                <!--
+                    The a href is a link to a external or another html file.
+                    The href is a tag attribute
+                    The target tag makes the web browser link open in a new tab.
+                --> 
+            <a href="https://youtu.be/fnPhJHN0jTE" target="_blank">tutorial.</a>
+        </p>
+        <p>
+            After installing and setting up <strong>Visual Studio Code</strong> it is time to start learning <em>HTML</em>. <br><br>
+            Now that I have learned about the strong tag that <strong>bolds</strong> words,
+            the emphasize tag the <em>itallicizes</em> words, how to make a word a reference
+            to a external website, and make that link open in a new tab.
+        </p>
+
+        <!--The below html paragraph creates a unorder list-->
+        <p>
+            It is now time to learn about <strong>lists</strong>. Let start out with an unorder list using the 
+            <strong>ul</strong> tag. Each list item will have a <strong>li</strong> tag.
+            <ul>
+                <li>Lets have an unorder list of <strong>SuperHero</strong> names.</li>
+                <li>Steve Rogers</li>
+                <li>Peter Parker</li>
+                <li>Tony Stark</li>
+            </ul>
+        </p>
+
+        <!--The below html paragraph creates a order list-->
+        <p>
+            If you are thinking that an order list tag would be <strong>ol</strong> you would
+            be correct.
+            <ol>
+                    <li>Lets have an order list of <strong>SuperHero</strong> names.</li>
+                    <li>Steve Rogers</li>
+                    <li>Peter Parker</li>
+                    <li>Tony Stark</li>
+            </ol>
+        </p>
+
+        <!--The below html paragraph creates a table-->
+        <p>
+            Wow this is getting so exciting it might not look good but you must learn to <strong>crawl</strong>
+            before you start to run. Lets now move on to creating a <em>table</em>.
+
+            <table>
+                <!--The thead tag are the columns -->
+                <thead>
+                    <th>Real Name</th>
+                    <th>Made Up Names</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Steve Rogers</td>
+                        <td>Captain America</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>Spider-man</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>Iron Man</td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+
+        <!--The below html paragraph ceates a form-->
+        <p>
+            As I created the table I thought <em>hmm</em> do you use tables for the layout of the webpage.
+            Sure you could if you were in <strong>1999</strong>, today web developers use <em>CSS</em> for the layout.
+            Lets now more on to creating <strong>forms</strong>. We will be only covering to look
+            of the form.
+        </p>
+        <!--action submits the form to a certain page-->
+        <!--method post adds data to a database-->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </div>
+            <br> <!--Should use CSS for padding-->
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter last name">
+            </div>
+            <br> 
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div><!--Select list-->
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        
+        <br>
+
+        <!--Button-->
+        <button>Just a button</button>
+
+        <br>
+
+        <a href="images/captainamerica1.jpg" target="_blank">
+        <!--Images-->
+        <img src="images/captainamerica1.jpg" alt="My Sample Image"
+        width="200" height= "100">
+        </a>
+
+        <!--Quatations-->
+        <blockquote cite="http://traversymedia.com">
+            Sample <strong>bloackquote</strong> tag.<br><br>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ipsa iusto repellendus molestiae nulla laboriosam nihil aspernatur expedita. Placeat consectetur esse ipsa laudantium error aspernatur labore ea rerum impedit enim.
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome.</p>
+
+        <p><cite>HTML crash course</cite> by me.</p>
+        <a href="blog.html">Go to next page on html semantics.</a>
+
+    </body>
+<footer>
+    <hr />
+    <br>
+</footer>
+</html>
